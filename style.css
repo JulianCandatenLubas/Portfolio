@@ -5,15 +5,96 @@
 --mint-cream: #eef4edff;*/
 * {
     background-color: #eef4edff;
-    margin: 0px;
+    margin: 00px;
     padding: 0;
 }
 html {
-    font-family: ;
+    font-size: 20px;
+    color:#13315cff 
 }
+
+a {
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+a:visited {
+    color: #13315cff;
+}
+
 header {
-    margin: 10px 10px 30px 20px;
+    background-color:#0b2545 ;
+}
+
+header nav {
+    background-color: #0b2545;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 10px; 
+    color: #8da9c4;
+}
+
+nav a:visited {
+color:#8da9c4 ;
+}
+
+header svg {
+    background-color: transparent;
+    padding: 10px;
+}
+
+#Logo {
+    background-color: transparent;
+}
+ 
+#Sobre {
+    text-align: justify;
+    height: 100vh;
+    padding: 15px 20px 30px 15px;
+    margin: auto;
+}
+
+#Sobre h2 {
+    padding: 30px;
+}
+
+#Sobre h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
 
 }
+
+#Sobre div {
+   margin: 0px; 
+}
+
+ #Sobre img {
+    max-width:400px;
+    max-height:600px;
+    width: auto;
+    height: auto; 
+}
+
+#Habilidades {
+    height: 50vh;
+}
+
+#Projetos {
+    height: 50vh;
+}
+
+#Contato {
+    height: 20vh;
+}
+
+footer {
+    height: 05vh;
+}
+
 
 
