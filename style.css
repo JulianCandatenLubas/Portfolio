@@ -45,22 +45,23 @@ header svg {
     padding: 10px;
 }
 
-#Logo {
+#logo {
     background-color: transparent;
 }
  
-#Sobre {
+#sobre {
     text-align: justify;
     height: 100vh;
     padding: 15px 20px 30px 15px;
     margin: auto;
+    width: 50%;
 }
 
-#Sobre h2 {
+#sobre h2 {
     padding: 30px;
 }
 
-#Sobre h3 {
+#sobre h3 {
     text-align: center;
 }
 
@@ -69,29 +70,44 @@ h1 {
 
 }
 
-#Sobre div {
+#sobre div {
    margin: 0px; 
+   text-align: justify;
+   
 }
 
- #Sobre img {
+ #sobre img {
     max-width:400px;
     max-height:600px;
     width: auto;
     height: auto; 
 }
 
-#Habilidades {
+#habilidades {
     height: 50vh;
 }
 
-#Projetos {
+#projetos {
     height: 50vh;
 }
 
-#Contato {
+#contato {
     height: 20vh;
 }
 
 footer {
+    padding: 10px;
+    color:#8da9c4;
     height: 05vh;
+    background-color:#0b2545 ;
+}
+
+footer p {
+   background-color:#0b2545 ; 
+}
+
+footer a {
+   color:#8da9c4; 
+   display: flex;
+   justify-content: flex-end;
 }
