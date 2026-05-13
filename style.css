@@ -16,6 +16,7 @@ html {
 a {
         text-decoration: none;
         background-color: transparent;
+        
     }
 
 a:visited {
@@ -36,6 +37,9 @@ header nav {
     color: #8da9c4;
 }
 
+nav a {
+color:#8da9c4 ;
+}
 nav a:visited {
 color:#8da9c4 ;
 }
