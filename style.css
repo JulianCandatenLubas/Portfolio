@@ -15,8 +15,7 @@ html {
 
 a {
         text-decoration: none;
-        background-color: transparent;
-        
+        background-color: transparent;  
     }
 
 a:visited {
@@ -26,6 +25,10 @@ a:visited {
 header {
     background-color:#0b2545 ;
 }
+
+header #Logo {
+    font-size: 25px;
+    }
 
 header nav {
     background-color: #0b2545;
@@ -39,7 +42,9 @@ header nav {
 
 nav a {
 color:#8da9c4 ;
+padding-right: 10px;
 }
+
 nav a:visited {
 color:#8da9c4 ;
 }
@@ -53,40 +58,6 @@ header svg {
     background-color: transparent;
 }
  
-#sobre {
-    text-align: justify;
-    height: 100vh;
-    padding: 15px 20px 30px 15px;
-    margin: auto;
-    width: 50%;
-}
-
-#sobre h2 {
-    padding: 30px;
-}
-
-#sobre h3 {
-    text-align: center;
-}
-
-h1 {
-    text-align: center;
-
-}
-
-#sobre div {
-   margin: 0px; 
-   text-align: justify;
-   
-}
-
- #sobre img {
-    max-width:400px;
-    max-height:600px;
-    width: auto;
-    height: auto; 
-}
-
 #habilidades {
     height: 50vh;
 }
@@ -97,10 +68,42 @@ h1 {
 
 #contato {
     height: 20vh;
+    color: #0b2545;
 }
 
+#sobre {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+
+.conteudo {
+    flex: 1;
+}
+
+.titulos {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.texto-sobre {
+    text-align: justify;
+    width: 65%;
+}
+
+#sobre img {
+    width: 350px;
+    border-radius: 10px;
+    }
+
 footer {
-    padding: 10px;
+    padding: 03px;
     color:#8da9c4;
     height: 05vh;
     background-color:#0b2545 ;
