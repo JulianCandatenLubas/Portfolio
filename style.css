@@ -102,19 +102,9 @@ header svg {
     border-radius: 10px;
     }
 
-footer {
+#contato2  {
     padding: 03px;
     color:#8da9c4;
     height: 05vh;
     background-color:#0b2545 ;
-}
-
-footer p {
-   background-color:#0b2545 ; 
-}
-
-footer a {
-   color:#8da9c4; 
-   display: flex;
-   justify-content: flex-end;
 }
