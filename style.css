@@ -8,27 +8,28 @@
     margin: 00px;
     padding: 0;
 }
+
 html {
     font-size: 20px;
-    color:#13315cff 
+    color: #13315cff
 }
 
 a {
-        text-decoration: none;
-        background-color: transparent;  
-    }
+    text-decoration: none;
+    background-color: transparent;
+}
 
 a:visited {
     color: #13315cff;
 }
 
 header {
-    background-color:#0b2545 ;
+    background-color: #0b2545;
 }
 
 header #Logo {
     font-size: 25px;
-    }
+}
 
 header nav {
     background-color: #0b2545;
@@ -36,17 +37,17 @@ header nav {
     display: flex;
     justify-content: flex-end;
     padding: 10px;
-    gap: 10px; 
+    gap: 10px;
     color: #8da9c4;
 }
 
 nav a {
-color:#8da9c4 ;
-padding-right: 10px;
+    color: #8da9c4;
+    padding-right: 10px;
 }
 
 nav a:visited {
-color:#8da9c4 ;
+    color: #8da9c4;
 }
 
 header svg {
@@ -57,9 +58,41 @@ header svg {
 #logo {
     background-color: transparent;
 }
- 
+
+.conteudo {
+    flex: 1;
+    padding: 10px;
+}
+
+#sobre {
+    height: 70vh;
+}
+
+.texto-sobre {
+    text-align:justify;
+    display: inline-block;
+    gap: 50px;
+    width: 50%;
+    margin: 50px auto 150px 50px;
+    padding: 10px 200px 15px 100px;  
+}
+
+#sobre img {
+    float: right;
+    display: inline-block;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
 #habilidades {
     height: 50vh;
+    
+}
+
+#habilidades h2 {
+    text-align: center;
 }
 
 #projetos {
@@ -71,40 +104,15 @@ header svg {
     color: #0b2545;
 }
 
-#sobre {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-    width: 80%;
-    margin: auto;
-    padding: 40px;
-}
-
-.conteudo {
-    flex: 1;
-}
-
 .titulos {
-  text-align: center;
-  width: 100%;
-  margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-.texto-sobre {
-    text-align: justify;
-    width: 65%;
-}
-
-#sobre img {
-    width: 350px;
-    border-radius: 10px;
-    }
-
-#contato2  {
+#contato2 {
     padding: 03px;
-    color:#8da9c4;
+    color: #8da9c4;
     height: 05vh;
-    background-color:#0b2545 ;
+    background-color: #0b2545;
 }
